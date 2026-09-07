@@ -49,5 +49,19 @@ int main(){
         printf("Fail\n");
     }
 
+//Largest of three numbers
+    int x,y,z;
+    printf("Enter your number:");
+    scanf("%d%d%d",&x,&y,&z);
+
+    if(x > y && x > z){
+        printf("X is the largest number \n");
+    }
+    else if(y > x && y > z){
+        printf("y is the largest number \n");
+    }
+    else{
+        printf("z is the largest number \n");
+    }
     return 0;
 }
