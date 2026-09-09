@@ -63,5 +63,32 @@ int main(){
     else{
         printf("z is the largest number \n");
     }
+
+//Even or Odd number
+    int n;
+    printf("Enter your Number:");
+    scanf("%d",&n);
+
+    if(n % 2 == 0){
+        printf("The number is Even \n");
+    }
+    else{
+        printf("The number is odd \n");
+    }
+
+//only one if
+    int num1;
+    int num2;
+    int max;
+    max = num1;
+    printf("What is Your Number:");
+    scanf("%d",&num1);
+    scanf("%d",&num2);
+
+    if(max > num2)
+    {
+        max = num2;
+    }
+    printf("The maximum number is %d \n", max);
     return 0;
 }
